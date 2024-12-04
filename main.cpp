@@ -10,11 +10,6 @@ void Read_function(vector<string>& my_vector)
 {
     ifstream in;
     in.open("READ.txt");
-
-
-}
-void Cout_function(vector<string>& my_vector)
-=======
     string line;
     while(getline(in,line))
     {
@@ -22,9 +17,10 @@ void Cout_function(vector<string>& my_vector)
     //cout<<line<<endl;
     }
 in.close();
-    }
-void Cout_function()
 
+}
+
+void Cout_function(vector<string>& my_vector)
 {
     for(size_t i=0;i<my_vector.size();++i)
     {
@@ -50,12 +46,8 @@ int main()
 {
     vector<string> my_vector;
 
-    void Read_function();
-    void Cout_function(my_vector);
-    void WriteIn_function(my_vector);
-
     Read_function(my_vector);
-    Cout_function();
-    WriteIn_function();
+    Cout_function(my_vector);
+    WriteIn_function(my_vector);
 
 }
