@@ -1,9 +1,27 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 //commit
+
+void Read_function()
+{
+
+}
+void Cout_function()
+{
+
+}
+void WriteIn_function()
+{
+
+}
+
+
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    vector<string> my_vector;
+    void Read_function();
+    void Cout_function();
+    void WriteIn_function();
 }
